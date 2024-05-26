@@ -1,25 +1,25 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
 const FeedItem = ({ feed, onLike, onComment }) => {
   const [newComment, setNewComment] = useState('');
+  const [comments, setComments] = useState(feed.comments);
 
   const handleComment = () => {
     if (newComment.trim()) {
       const comment = {
-        feedId: feed.id,
         username: "current_user",
         userProfilePic: "https://via.placeholder.com/50",
         text: newComment
       };
+      setComments([...comments, comment]); // Update comments state with new comment
+      setNewComment(""); // Clear input field after adding comment
+      onComment(feed.id, comments); // Pass updated comments to parent component
+    }
+  };
 
-      // Post new comment to the server
-      axios.post(`http://localhost:5001/comments`, comment)
-        .then(response => {
-          onComment(feed.id, comment);
-          setNewComment("");
-        })
-        .catch(error => console.error('Error posting comment:', error));
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleComment();
     }
   };
 
@@ -41,8 +41,7 @@ const FeedItem = ({ feed, onLike, onComment }) => {
       </div>
       <div className="mt-4">
         <h3 className="text-lg font-semibold">Comments</h3>
-    
-        {feed.comments.map((comment, index) => (
+        {comments.map((comment, index) => (
           <div key={index} className="flex items-center mt-2">
             <img src={comment.userProfilePic} alt={comment.username} className="w-8 h-8 rounded-full mr-2" />
             <div>
@@ -56,6 +55,7 @@ const FeedItem = ({ feed, onLike, onComment }) => {
             type="text"
             value={newComment}
             onChange={(e) => setNewComment(e.target.value)}
+            onKeyDown={handleKeyDown}
             className="border rounded-l px-4 py-2 w-full"
             placeholder="Add a comment..."
           />

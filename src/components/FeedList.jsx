@@ -42,10 +42,10 @@ const FeedList = () => {
     setFilteredFeeds(updatedFeeds);
   };
 
-  const handleComment = (id, comment) => {
+  const handleComment = (id, comments) => {
     const updatedFeeds = feeds.map(feed => {
       if (feed.id === id) {
-        return { ...feed, comments: [...feed.comments, comment] };
+        return { ...feed, comments: [...comments] }; // Update feed's comments with the updated comments
       }
       return feed;
     });
