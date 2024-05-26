@@ -1,0 +1,266 @@
+{
+  "feeds": [
+    {
+      "id": 1,
+      "title": "Feed Title 1",
+      "image": "https://via.placeholder.com/150",
+      "publishedDate": "2024-05-26",
+      "brief": "Brief description of feed 1",
+      "likes": 0,
+      "likedBy": [],
+      "comments": [
+        {
+          "id": "6c64",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "91d3",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "3c3b",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "gg"
+        },
+        {
+          "id": "f03c",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "318c",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "4c8b",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "0073",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "2858",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "e3b6",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "91a4",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "a98c",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hello"
+        },
+        {
+          "id": "9b58",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "7603",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "66d7",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "35ec",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "e42b",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "1244",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "0e07",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Feed Title 1",
+      "image": "https://via.placeholder.com/150",
+      "publishedDate": "2024-05-26",
+      "brief": "Brief description of feed 1",
+      "likes": 0,
+      "likedBy": [],
+      "comments": [
+        {
+          "id": "6c64",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "91d3",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "3c3b",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "gg"
+        },
+        {
+          "id": "f03c",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "318c",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "4c8b",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "0073",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "2858",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hi"
+        },
+        {
+          "id": "e3b6",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "91a4",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "a98c",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hello"
+        },
+        {
+          "id": "9b58",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "7603",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "66d7",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "35ec",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        },
+        {
+          "id": "e42b",
+          "feedId": 1,
+          "username": "current_user",
+          "userProfilePic": "https://via.placeholder.com/50",
+          "text": "hii"
+        }
+       
+      ]
+    }
+  ]
+ 
+}
